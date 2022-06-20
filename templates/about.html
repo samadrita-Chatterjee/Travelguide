@@ -1,0 +1,121 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Travelguide</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/video">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/contact">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h1 class="text center "> Jammu and Kashmir</h1>
+      <p>
+        Jammu & Kashmir (J&K) is the northern most state in India. It is surrounded on the north by Afghanistan and China, on the east by China, on the south by Himachal Pradesh and Punjab in India, and on the west by the North-West Frontier Province and the Punjab Province of Pakistan.
+      </p>
+      <!--------------------card start-------->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="{% static 'images/img8.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Trekking</h5>
+                <p class="card-text">Some beautiful places for Trekking in Kashmir are Kashmir great lakes,Tarsar Mansar Trek,Naranag Mahlish,Naranag Gangabal Trek,Kolahoi Glacier,Pahalgam,Kashmir Alpine Lakes.</p>
+                <a href="#" class="btn btn-primary  bg-success text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="{% static 'images/img15.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Places to visit in Kashmir</h5>
+                <p class="card-text">Srinagar, Gulmarg, Sonamarg, Kupwara, Kargil, Pulwama, Pahalgam, Nishat Garden, Shalimar Garden Chashmashahi, Jama Masjid, Yusmarg, Aru Valley. From the charming valleys to alpine meadows that stretch as far as the horizon, these places to visit in Kashmir are known for their superior beauty.</p>
+                <a href="#" class="btn btn-primary  bg-success text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="{% static 'images/img6.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tulip</h5>
+                <p class="card-text">Srinagar, Gulmarg, Sonamarg, Kupwara, Kargil, Pulwama, Pahalgam, Nishat Garden, Shalimar Garden Chashmashahi, Jama Masjid, Yusmarg, Aru Valley. From the charming valleys to alpine meadows that stretch as far as the horizon, these places to visit in Kashmir are known for their superior beauty.</p>
+                <a href="#" class="btn btn-primary bg-success text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+
+      <!---------------------------Card end---->
+
+
+      <!---------------------navbar end------------->
+
+      <br><br><br><br>
+
+
+
+
+
+
+      <!-----------------------Footer start---------------->
+      <footer class="bg-success text-white position-relative">
+        <p class="text-center py-2 mr-0">
+          © Copyright 2021-2031 www.travelguide.com. All rights reserved. Developed by Travelguide.
+        </p>
+      </footer>
+      <!-----------------------Footer end---------------->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
